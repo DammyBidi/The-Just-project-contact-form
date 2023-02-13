@@ -1,0 +1,105 @@
+h1 {
+    width: 393px;
+    height: 96px;
+    margin-left: 142px;
+    margin-top: 78px;
+
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 150%;
+
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+
+form {
+    width: 500px;
+    margin-left: 142px;
+    margin-top: 78px;
+  }
+
+  label {
+    margin-bottom: 10px;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+ }
+ .manrope {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+  
+ }
+
+  input[type="text"], input[type="email"], input[type="password"], input[type="number"], select,
+  textarea {
+
+    margin-bottom: 20px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 56px;
+    margin-left: 316px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #797979;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+
+
+  }
+
+  ::placeholder {
+    position: absolute;
+    height: 24px;
+    left: 16px;
+    top: 16px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    
+    /* Name */
+    
+    color: #797979;
+  }
+  
+
+  
+
+
+
+
+  input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    background-color: #155EEF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 310px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #48399c;
+  }
