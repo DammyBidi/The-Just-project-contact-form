@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 h1 {
     width: 393px;
     height: 96px;
@@ -19,6 +26,7 @@ form {
     width: 500px;
     margin-left: 142px;
     margin-top: 78px;
+  
   }
 
   label {
@@ -58,35 +66,22 @@ form {
     flex: none;
     order: 1;
     flex-grow: 0;
-    
-
 
   }
 
   ::placeholder {
-    position: absolute;
+    padding: 10px;
     height: 24px;
     left: 16px;
     top: 16px;
-    
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-    
-    
-    /* Name */
-    
     color: #797979;
   }
   
-
-  
-
-
-
 
   input[type="submit"] {
     width: 80%;
@@ -103,3 +98,12 @@ form {
   input[type="submit"]:hover {
     background-color: #48399c;
   }
+
+ div {
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-left: 316px;
+ }
+
+
+
